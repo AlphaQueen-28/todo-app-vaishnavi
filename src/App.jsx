@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { appStyle, inputStyle } from "./Styles/style";
-import Input from "./Components/inputs";
 import Task from "./Components/Task";
 import Button from "./Components/Button";
+import InputfFelds from "./Components/InputfFelds";
 
 const App = () => {
   //to store all task
@@ -38,7 +38,7 @@ const App = () => {
       <h3>ToDo List</h3>
 
       <div>
-        <Input
+        <InputfFelds
           type="text"
           placeholder="Add a new task"
           style={inputStyle}
